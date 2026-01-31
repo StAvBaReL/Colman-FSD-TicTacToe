@@ -6,7 +6,7 @@ export interface SquareProps {
   isWinningSquare?: boolean;
 }
 
-const Square: FC<SquareProps> = ({
+export const Square: FC<SquareProps> = ({
   value,
   onSquareClick,
   isWinningSquare = false,
@@ -22,5 +22,3 @@ const Square: FC<SquareProps> = ({
     </button>
   );
 };
-
-export default Square;
