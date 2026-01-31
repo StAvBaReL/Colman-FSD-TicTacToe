@@ -14,7 +14,7 @@ export const Board: FC<BoardProps> = ({
 }) => {
   return (
     <div
-      className="d-grid gap-0"
+      className="d-grid gap-2"
       style={{ gridTemplateColumns: "repeat(3, 1fr)", width: "fit-content" }}
     >
       {squares.map((value, index) => (

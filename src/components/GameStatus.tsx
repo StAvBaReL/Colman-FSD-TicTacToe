@@ -7,7 +7,7 @@ export interface GameStatusProps {
   onRestart: () => void;
 }
 
-const GameStatus: FC<GameStatusProps> = ({
+export const GameStatus: FC<GameStatusProps> = ({
   winner,
   isDraw,
   xIsNext,
@@ -41,4 +41,3 @@ const GameStatus: FC<GameStatusProps> = ({
   );
 };
 
-export default GameStatus;
